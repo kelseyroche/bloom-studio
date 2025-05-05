@@ -1,3 +1,4 @@
+
 // import React from 'react';
 // import arrow from '../assets/arrow.png';
 // import content1 from '../assets/content1.png';
@@ -9,12 +10,14 @@
 //   return (
 //     <section className="hero-section">
 //       <div className="hero-content">
-//         <div className="hero-text-row">
-//           <h1 className="hero-main-text">Design</h1>
-//           <img src={arrow} alt="Arrow" className="hero-arrow" />
-//           <button className="hero-button">Work with us</button>
+//         <div className="hero-text">
+//           <div className="hero-text-row">
+//             <h1 className="hero-main-text">Design</h1>
+//             <img src={arrow} alt="Arrow" className="hero-arrow" />
+//             <button className="hero-button">Work with us</button>
+//           </div>
+//           <h1 className="hero-sub-text">for you</h1>
 //         </div>
-//         <h1 className="hero-sub-text">for you</h1>
 
 //         <div className="hero-images-row">
 //           <img src={content1} alt="Content 1" className="hero-image" />
@@ -40,14 +43,12 @@ const Hero = () => {
   return (
     <section className="hero-section">
       <div className="hero-content">
-        <div className="hero-text">
-          <div className="hero-text-row">
-            <h1 className="hero-main-text">Design</h1>
-            <img src={arrow} alt="Arrow" className="hero-arrow" />
-            <button className="hero-button">Work with us</button>
-          </div>
-          <h1 className="hero-sub-text">for you</h1>
+        <div className="hero-text-row">
+          <h1 className="hero-main-text">Design</h1>
+          <img src={arrow} alt="Arrow" className="hero-arrow" />
+          <button className="hero-button">Work with us</button>
         </div>
+        <h1 className="hero-sub-text">for you</h1>
 
         <div className="hero-images-row">
           <img src={content1} alt="Content 1" className="hero-image" />
