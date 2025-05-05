@@ -40,3 +40,209 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/*FONTS*/
+@font-face {
+  font-family: 'TTRamillasBlack';
+  src: url('./assets/fonts/TT Ramillas Trial Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTRamillasItalic';
+  src: url('./assets/fonts/TT Ramillas Trial ExtraBold Italic.ttf') format('truetype');
+}
+
+/* App.css */
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+  background-color: #fff; /* Adjust based on your desired color */
+  z-index: 10;
+}
+
+main {
+  padding-top: 80px; /* Matches header height */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 250px; /* Adjust size of logo */
+  margin-right: 10px;
+}
+
+.burger-menu {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.burger-menu .line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  position: absolute;
+  top: 60px; /* Adjust based on header height */
+  right: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.dropdown-menu ul li a:hover {
+  background-color: #f7f7f7;
+}
+
+/* Media Query for the Burger Menu */
+@media (max-width: 768px) {
+  .burger-menu {
+    display: flex;
+  }
+
+  .header .logo span {
+    display: none; /* Hide the text when burger menu is shown on mobile */
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    box-shadow: none;
+  }
+}
+/* alternating blocks*/
+
+.section {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 100px 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.about-section {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+.work-section {
+  background-color: white;
+  color: black;
+}
+
+.clients-section {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+/* hero css*/
+/* HERO SECTION */
+.hero-section {
+  background-color: white;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 100px; /* Adjust to match your header */
+}
+
+.hero-content {
+  width: 100%;
+  padding: 0 5vw;
+  box-sizing: border-box;
+}
+
+.hero-text {
+  padding-left: 25vw;
+}
+
+.hero-text-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.hero-main-text {
+  font-family: 'TTRamillasBlack', serif;
+  font-size: 6rem;
+  margin: 0;
+}
+
+.hero-sub-text {
+  font-family: 'TTRamillasItalic', serif;
+  font-size: 4rem;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.hero-arrow {
+  height: 40px;
+}
+
+.hero-button {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.hero-images-row {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 5vw;
+  box-sizing: border-box;
+}
+
+.hero-image {
+  width: 18vw;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
