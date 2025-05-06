@@ -47,24 +47,13 @@
 // }
 
 // export default Contact;
-
-import React, { useRef } from "react";
+import React from "react";
 import "./Contact.css";
 import whiteLongLogo from "../../assets/white_long_logo.png";
 import whiteHalfFlower from "../../assets/white_half_flower.png";
 import { FaEnvelope, FaInstagram } from "react-icons/fa";
 
 function Contact() {
-  // Ref for "Work With Us" section
-  const workWithUsRef = useRef(null);
-
-  // Function to scroll to the "Work With Us" section
-  const scrollToWorkWithUs = () => {
-    if (workWithUsRef.current) {
-      workWithUsRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <section id="contact" className="contact-section">
       <div className="contact-container">
@@ -75,8 +64,10 @@ function Contact() {
             <h1 className="mark-text">
               <span className="mark">mark</span>
             </h1>
-            {/* Updated to trigger the scroll function */}
-            <div className="work-bubble" onClick={scrollToWorkWithUs}>work with us</div>
+            {/* Use anchor link to scroll to the Work With Us section */}
+            <a href="#work-with-us" className="work-bubble">
+              work with us
+            </a>
           </div>
         </div>
 

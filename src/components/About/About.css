@@ -63,7 +63,7 @@
   
   /* Replace text with image logo */
   .about-logo {
-    width: 280px; /* was likely smaller before */
+    width: 350px; /* was likely smaller before */
     height: auto;
     margin-bottom: 20px;
   }
