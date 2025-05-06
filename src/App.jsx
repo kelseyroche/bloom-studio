@@ -63,8 +63,8 @@ function App() {
       <main>
         <Hero />
         <About />
-        <OurWork />
-        <Clients />
+        {/* <OurWork />
+        <Clients /> */}
         <Services />
         <Contact />
         {/* <WorkWithUs /> */}

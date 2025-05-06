@@ -64,16 +64,16 @@ function Contact() {
 
         <div className="contact-right">
           <div className="contact-info">
-            <p>Email: hello@bloomdigital.com</p>
-            <p>Phone: (555) 123-4567</p>
-            <p>Location: Remote / NYC</p>
+            <p>Email: bloomstudiodev@gmail.com</p>
+            <p>Phone: (203) 708-1606</p>
+            <p>Location: Remote | Stamford | NYC</p>
           </div>
           <div className="contact-icons">
-            <a href="mailto:hello@bloomdigital.com" aria-label="Email">
+            <a href="mailto:bloomstudiodev@gmail.com" aria-label="Email">
               <FaEnvelope className="icon" />
             </a>
             <a
-              href="https://instagram.com/bloomdigital"
+              href="https://instagram.com/bloomstudio.dev"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"

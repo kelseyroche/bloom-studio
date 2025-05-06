@@ -42,16 +42,16 @@ function Services() {
         </h2>
         <img src={doubleflowerblack} alt="Double Flower" />
       </div>
-      <p className="subheader">Elevate your brand and make your mark in history</p>
+      <p className="subheader">ELEVATE YOUR BRAND AND MAKE YOUR MARK ON CLIENTS</p>
       <div className="bubble-row">
         <div className="bubble">Website Ideation</div>
         <div className="bubble">Custom Development</div>
         <div className="bubble">Hosting</div>
       </div>
       <div className="bubble-row">
-        <div className="bubble">Consulting</div>
-        <div className="bubble">SEO Optimization</div>
-        <div className="bubble">Brand Strategy</div>
+        <div className="bubble">Creative Direction</div>
+        <div className="bubble">Logo & Visual Identity Design</div>
+        <div className="bubble">Website Maintenance</div>
       </div>
     </section>
   );

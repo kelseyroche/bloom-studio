@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'TT Ramillas Regular';
+    src: url('../../assets/fonts/TT Ramillas Trial Regular.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'TT Ramillas Regular', sans-serif;
+  }
+
 
 /* What We Do Section (services) */
 .services-section {
@@ -29,23 +38,46 @@
     height: auto;
   }
   
+  .subheader {
+    font-family: 'TTRamillasRegular', serif;
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+    text-align: center;
+    color: #333;
+  }
+  
   .bubble-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 30px;
+    margin-bottom: 30px;
   }
   
   .bubble {
-    background-color: #f7f7f7; /* Light gray for the bubble */
-    border-radius: 12px;
-    width: calc(33% - 20px);
-    padding: 30px 20px;
+    font-family: 'TTRamillasBlack', serif;
+    font-size: 1.1rem;
+    background-color: white;
+    border: 2px solid #bbb;
+    border-radius: 40px;
+    width: 240px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-family: 'Inter', 'Poppins', 'Nunito Sans', sans-serif;
-    font-size: 1.2rem;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
   }
   
+  .bubble:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+    border-color: #999;
+    background-color: #fdfdfd;
+  }
+  
+
   @media (max-width: 768px) {
     .bubble-row {
       flex-direction: column;
@@ -54,6 +86,8 @@
   
     .bubble {
       width: 80%;
+      height: auto;
+      border-radius: 30px;
       margin-bottom: 20px;
     }
   }

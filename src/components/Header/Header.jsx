@@ -135,8 +135,8 @@ function Header() {
           <ul>
             <li><a href="#hero" onClick={toggleMenu}>Home</a></li>
             <li><a href="#about" onClick={toggleMenu}>About</a></li>
-            <li><a href="#our-work" onClick={toggleMenu}>Our Work</a></li>
-            <li><a href="#clients" onClick={toggleMenu}>Clients</a></li>
+            {/* <li><a href="#our-work" onClick={toggleMenu}>Our Work</a></li> */}
+            {/* <li><a href="#clients" onClick={toggleMenu}>Clients</a></li> */}
             <li><a href="#services" onClick={toggleMenu}>What We Do</a></li>
             <li><a href="#contact" onClick={toggleMenu}>Contact Us</a></li>
             {/* <li><a href="#work-with-us" onClick={toggleMenu}>Work With Us</a></li> */}
