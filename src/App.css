@@ -28,8 +28,13 @@
 }
 
 /* New font - clean sans-serif */
+@font-face {
+  font-family: 'TT Ramillas Regular';
+  src: url('../../assets/fonts/TT Ramillas Trial Regular.ttf') format('truetype');
+}
+
 body {
-  font-family: 'Inter', 'Poppins', 'Nunito Sans', sans-serif;
+  font-family: 'TT Ramillas Regular', sans-serif;
 }
 
 /* Reset margin and padding on body */
@@ -173,252 +178,15 @@ main {
   margin: 0;
 }
 
-/*about section */
-
-/* New font - clean sans-serif */
-body {
-  font-family: 'Inter', 'Poppins', 'Nunito Sans', sans-serif;
-}
-
-/* About section tweaks */
-.about-section {
-  width: 100vw;
-  background-color: #191919;
-  padding: 100px 5vw;
-  box-sizing: border-box;
-}
-
-.about-top {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 40px;
-}
-
-/* Left side: About title, BloomStudio, flower image */
-.about-left {
-  flex: 1;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.about-title {
-  font-family: 'TTRamillasBlack', serif;
-  font-size: 3rem;
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-.about-brand {
-  display: flex;
-  gap: 10px;
-  align-items: baseline;
-  margin-bottom: 20px;
-}
-
-.bloom {
-  font-family: 'TTRamillasBlack', serif;
-  font-size: 3rem;
-}
-
-.studio {
-  font-family: 'TTRamillasItalic', serif;
-  font-size: 2.5rem;
-}
-
-.about-flower {
-  width: 80px;
-  height: auto;
-  margin-top: 10px;
-}
-
-/* Right side: profile photo */
-.about-right {
-  flex: 1;
-  min-width: 300px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.about-photo {
-  width: 100%;
-  max-width: 600px; /* increase from 300px */
-  max-height: 850px;
-  border-radius: 12px;
-  object-fit: cover;
-  margin-bottom: -20px; /* pulls it visually closer to the paragraph */
-}
-
-/* Paragraphs */
-.about-bottom {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  margin-top: 50px;
-}
-
-.about-paragraph {
-  flex: 1;
-  min-width: 300px;
-  font-size: 1.2rem;
-  line-height: 2;
-  font-family: 'Inter', 'Poppins', 'Nunito Sans', sans-serif;
-}
-
 .work-section {
   background-color: white;
   color: black;
 }
 
-.clients-section {
-  background-color: #191919;
-  color: white;
-}
+
 /*hero*/
 /* About */
 
-/* Full-width background color for the about section */
-.about-section {
-  background-color: #2e2e2e;
-  color: white;
-  width: 100vw;
-  height: auto;
-  padding: 100px 0; /* Adjusted padding here */
-  box-sizing: border-box;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
-
-/* Indentation on the content */
-.about-container {
-  width: 100%;
-  max-width: 1200px; /* Control content width */
-  margin: 0 auto; /* Centers the content */
-  padding: 0 40px; /* Added padding for indentation */
-}
-
-.about-top {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
-}
-
-.about-left {
-  flex: 1;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.about-title {
-  font-family: 'TTRamillasBlack', serif;
-  font-size: 3rem;
-  margin: 0;
-}
-
-.about-brand {
-  display: flex;
-  gap: 10px;
-  align-items: baseline;
-  margin-bottom: 20px;
-}
-
-.bloom {
-  font-family: 'TTRamillasBlack', serif;
-  font-size: 3rem;
-}
-
-.studio {
-  font-family: 'TTRamillasItalic', serif;
-  font-size: 2.5rem;
-}
-
-.about-flower {
-  width: 80px;
-  height: auto;
-  margin-top: 10px;
-}
-
-.about-right {
-  flex: 1;
-  min-width: 300px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.about-photo {
-  width: 100%;
-  max-width: 700px; /* Made the photo larger */
-  height: auto;
-  border-radius: 12px;
-  object-fit: cover;
-  margin-bottom: -20px;
-}
-
-.about-bottom {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  margin-top: 50px;
-}
-
-.about-paragraph {
-  flex: 1;
-  min-width: 300px;
-  font-size: 1.2rem;
-  line-height: 2;
-  font-family: 'Inter', 'Poppins', 'Nunito Sans', sans-serif;
-}
-
-/* Reducing gap between hero and about section */
-/* .hero-section {
-  margin-bottom: 0; /* Remove extra gap here */
-*/
-
-.about-section {
-  padding-top: 0; /* Remove top padding from the about section */
-}
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .about-top {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .about-left, .about-right {
-    align-items: center;
-  }
-
-  .about-brand {
-    justify-content: center;
-  }
-
-  .about-photo {
-    max-width: 90vw;
-    margin-bottom: 20px;
-  }
-
-  .about-bottom {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about-paragraph {
-    font-size: 1.1rem;
-    padding: 0 10px;
-  }
-}
 
 /*our work*/
 .our-work-section {
@@ -563,61 +331,3 @@ body {
 /*what we do*/
 
 /* What We Do Section */
-/* What We Do Section (services) */
-.services-section {
-  background-color: white;
-  padding: 100px 5vw;
-  box-sizing: border-box;
-}
-
-.services-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
-.services-header h2 {
-  font-family: 'TTRamillasBlack', serif;
-  font-size: 3rem;
-}
-
-.services-header p {
-  font-family: 'Inter', 'Poppins', 'Nunito Sans', sans-serif;
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
-
-.services-header img {
-  width: 100px; /* Adjust the image size */
-  height: auto;
-}
-
-.bubble-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-}
-
-.bubble {
-  background-color: #f7f7f7; /* Light gray for the bubble */
-  border-radius: 12px;
-  width: calc(33% - 20px);
-  padding: 30px 20px;
-  text-align: center;
-  font-family: 'Inter', 'Poppins', 'Nunito Sans', sans-serif;
-  font-size: 1.2rem;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 768px) {
-  .bubble-row {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .bubble {
-    width: 80%;
-    margin-bottom: 20px;
-  }
-}

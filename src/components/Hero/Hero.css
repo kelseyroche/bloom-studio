@@ -72,14 +72,14 @@
   .hero-images-row {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 24px;
     margin-top: 10px;
     margin-bottom: 40px; /* More spacing below photos */
   }
   
   .hero-image {
-    width: 26%;
+    width: 25%;
     min-width: 200px;
     aspect-ratio: 4 / 5;
     object-fit: cover;
@@ -128,12 +128,18 @@
   
     /* Adjust the individual image width to fit within the screen */
     .hero-image {
+        display:none;
       width: 40%; /* Reducing size to fit better on mobile */
       min-width: 150px; /* Ensuring they aren't too small */
       max-width: 180px; /* Prevent images from getting too big */
       height: auto; /* Maintain aspect ratio */
       object-fit: cover;
     }
+
+    .hero-image:first-child {
+        display: block; /* Only show the first image */
+        width: 100%;    /* Make it take up the full width */
+      }
   }
 
   @media (max-width: 768px) {
@@ -162,3 +168,4 @@
       padding: 0 10px;
     }
   }
+

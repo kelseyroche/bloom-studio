@@ -1,0 +1,59 @@
+
+/* What We Do Section (services) */
+.services-section {
+    background-color: white;
+    padding: 100px 5vw;
+    box-sizing: border-box;
+  }
+  
+  .services-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .services-header h2 {
+    font-family: 'TTRamillasBlack', serif;
+    font-size: 3rem;
+  }
+  
+  .services-header p {
+    font-family: 'Inter', 'Poppins', 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .services-header img {
+    width: 100px; /* Adjust the image size */
+    height: auto;
+  }
+  
+  .bubble-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .bubble {
+    background-color: #f7f7f7; /* Light gray for the bubble */
+    border-radius: 12px;
+    width: calc(33% - 20px);
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Inter', 'Poppins', 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .bubble-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bubble {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }

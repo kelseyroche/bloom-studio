@@ -30,13 +30,14 @@
 
 import React from "react";
 import doubleflowerblack from "../../assets/doubleflowerblack.png"; // Fix the image path
+import './Services.css'
 
 function Services() {
   return (
     <section id = "services" section className="services-section">
       <div className="services-header">
         <h2>
-          <span className="what-font">What</span>
+          <span className="what-font">What </span>
           <span className="we-do-font">We Do</span>
         </h2>
         <img src={doubleflowerblack} alt="Double Flower" />

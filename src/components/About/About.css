@@ -1,0 +1,142 @@
+/* about section */
+
+/* New font - TT Ramillas Regular */
+@font-face {
+    font-family: 'TT Ramillas Regular';
+    src: url('../../assets/fonts/TT Ramillas Trial Regular.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'TT Ramillas Regular', sans-serif;
+  }
+  
+  /* About section tweaks */
+  .about-section {
+    width: 100vw;
+    background-color: #2e2e2e;
+    color: white;
+    padding: 100px 5vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* Fix to stretch background edge-to-edge */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  
+  .about-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center; /* Center content horizontally */
+    gap: 40px;
+    width: 100%; /* Ensure the top section takes up full width */
+  }
+  
+  /* Left side: About title, BloomStudio logo, flower image */
+  .about-left {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .about-title {
+    font-family: 'TTRamillasBlack', serif;
+    font-size: 8rem;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .about-brand {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    margin-bottom: 20px;
+  }
+  
+  /* Replace text with image logo */
+  .about-logo {
+    width: 280px; /* was likely smaller before */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .about-flower {
+    width: 100px; /* was 80px before */
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  /* Right side: profile photo */
+  .about-right {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center; /* Center photo horizontally */
+  }
+  
+  .about-photo {
+    width: 100%;
+    max-width: 450px; /* Adjusted from 600 or 700 */
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraphs */
+  .about-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 50px;
+    justify-content: center; /* Center paragraphs horizontally */
+  }
+  
+  .about-paragraph {
+    flex: 1;
+    min-width: 300px;
+    font-size: 1.5rem; /* Increased font size for paragraphs */
+    line-height: 2;
+    font-family: 'TT Ramillas Regular', sans-serif; /* Updated font */
+    text-align: center; /* Center align text */
+  }
+  
+  /* Mobile adjustments */
+  @media (max-width: 768px) {
+    .about-top {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .about-left, .about-right {
+      align-items: center;
+    }
+  
+    .about-brand {
+      justify-content: center;
+    }
+  
+    .about-photo {
+      max-width: 90vw;
+      margin-bottom: 20px;
+    }
+  
+    .about-bottom {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-paragraph {
+      font-size: 1.3rem;
+      padding: 0 10px;
+    }
+  }
