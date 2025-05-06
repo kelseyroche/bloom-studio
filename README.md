@@ -1,12 +1,18 @@
-# React + Vite
+BloomStudio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌸 About
 
-Currently, two official plugins are available:
+BloomStudio is a stylish, modern one-page website designed for my boutique web design business. Built with React and styled with custom CSS, the site showcases Bloom’s brand identity, services, and aesthetic through thoughtful layout and typography. The project emphasizes responsiveness, visual elegance, and usability.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack
+	•	React (with Vite)
+	•	Custom CSS
+	•	Responsive Design
+	•	Font Customization (TT Ramillas Trial family)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🖼️ Features
+	•	Fixed header with logo and smooth scroll navigation
+	•	About section with custom branding and image layout
+	•	Services (“What We Do”) section with animated, stylized bubbles
+	•	Clients section with flexible logo grid
+	•	Fully responsive and mobile-friendly
