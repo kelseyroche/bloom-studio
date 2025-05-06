@@ -49,8 +49,8 @@
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
-import OurWork from './components/OurWork/OurWork';
-import Clients from './components/Clients/Clients';
+// import OurWork from './components/OurWork/OurWork';
+// import Clients from './components/Clients/Clients';
 import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 import WorkWithUs from './components/WorkWithUs/WorkWithUs';

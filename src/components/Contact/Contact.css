@@ -26,7 +26,7 @@
   .contact-left {
     max-width: 600px;
   }
-
+  
   .contact-right {
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@
     margin-top: 20px;
     max-width: 400px;
   }
-
+  
   .right-flower {
     position: absolute;
     top: 50%;
@@ -45,6 +45,13 @@
     height: auto;
     max-height: 80%;
     z-index: 1;
+  }
+  
+  /* Hide the floral graphic on mobile devices */
+  @media (max-width: 768px) {
+    .right-flower {
+      display: none;
+    }
   }
   
   .contact-logo {
@@ -82,7 +89,7 @@
     flex-direction: column;
     align-items: flex-start;
   }
-
+  
   .contact-right {
     display: flex;
     flex-direction: column;
@@ -100,7 +107,6 @@
     margin-top: 10px;
   }
   
-  
   .contact-icons a {
     color: white;
     transition: color 0.3s ease;
@@ -110,27 +116,17 @@
     color: #ffd9dd; /* A pop color from your palette */
   }
   
-  .contact-flower {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    max-height: 80%;
-    z-index: 1;
-  }
-
   .contact-info {
     text-align: center;
     font-size: 2rem;
   }
   
-
-.icon {
+  .icon {
     font-size: 28px;
     color: white;
     transition: transform 0.2s ease;
-}
-
-.icon:hover {
+  }
+  
+  .icon:hover {
     transform: scale(1.1);
   }
