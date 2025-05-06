@@ -84,7 +84,7 @@
   
   .about-photo {
     width: 100%;
-    max-width: 450px; /* Adjusted from 600 or 700 */
+    max-width: 550px; /* Adjusted from 600 or 700 */
     height: auto;
     border-radius: 12px;
     object-fit: cover;
