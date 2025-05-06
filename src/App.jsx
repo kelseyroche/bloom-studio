@@ -46,14 +46,14 @@
 
 // export default App;
 
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import OurWork from './components/OurWork';
-import Clients from './components/Clients';
-import Services from './components/Services';
-import Contact from './components/Contact';
-import WorkWithUs from './components/WorkWithUs';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import OurWork from './components/OurWork/OurWork';
+import Clients from './components/Clients/Clients';
+import Services from './components/Services/Services';
+import Contact from './components/Contact/Contact';
+// import WorkWithUs from './components/WorkWithUs/WorkWithUs';
 import './App.css';
 
 function App() {
@@ -67,7 +67,7 @@ function App() {
         <Clients />
         <Services />
         <Contact />
-        <WorkWithUs />
+        {/* <WorkWithUs /> */}
       </main>
     </>
   );

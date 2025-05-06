@@ -1,21 +1,89 @@
+
+// import React from "react";
+// import "./Contact.css";
+// import whiteLongLogo from "../../assets/white_long_logo.png";
+// import whiteHalfFlower from "../../assets/white_half_flower.png";
+// import { FaEnvelope, FaInstagram } from "react-icons/fa";
+
+// function Contact() {
+//   return (
+//     <section className="contact-section">
+//       <div className="contact-left">
+//         <img src={whiteLongLogo} alt="Bloom Digital Logo" className="contact-logo" />
+//         <div className="contact-text">
+//           <h1 className="make-your">Make your</h1>
+//           <h1 className="mark-text">
+//             <span className="mark">mark</span>
+//           </h1>
+//           <div className="work-bubble">work with us</div>
+//         </div>
+//       </div>
+
+//       <div className="contact-right">
+//         <div className="contact-info">
+//           <p>Email: hello@bloomdigital.com</p>
+//           <p>Phone: (555) 123-4567</p>
+//           <p>Location: Remote / NYC</p>
+//         </div>
+//         <div className="contact-icons">
+//           <a href="mailto:hello@bloomdigital.com" aria-label="Email">
+//             <FaEnvelope className="icon" />
+//           </a>
+//           <a href="https://instagram.com/bloomdigital" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+//             <FaInstagram className="icon" />
+//           </a>
+//         </div>
+//         <img src={whiteHalfFlower} alt="Floral graphic" className="right-flower" />
+//       </div>
+//     </section>
+//   );
+// }
+
+// export default Contact;
+
 import React from "react";
+import "./Contact.css";
+import whiteLongLogo from "../../assets/white_long_logo.png";
+import whiteHalfFlower from "../../assets/white_half_flower.png";
+import { FaEnvelope, FaInstagram } from "react-icons/fa";
 
 function Contact() {
   return (
-    <section className="contact-section">
-      <h2>Contact Us</h2>
-      <form>
-        <label htmlFor="name">Name</label>
-        <input type="text" id="name" name="name" required />
+    <section id= "contact" section className="contact-section">
+      <div className="contact-container">
+        <div className="contact-left">
+          <img src={whiteLongLogo} alt="Bloom Digital Logo" className="contact-logo" />
+          <div className="contact-text">
+            <h1 className="make-your">Make your</h1>
+            <h1 className="mark-text">
+              <span className="mark">mark</span>
+            </h1>
+            <div className="work-bubble">work with us</div>
+          </div>
+        </div>
 
-        <label htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" required />
-
-        <label htmlFor="message">Message</label>
-        <textarea id="message" name="message" required />
-
-        <button type="submit">Send Message</button>
-      </form>
+        <div className="contact-right">
+          <div className="contact-info">
+            <p>Email: hello@bloomdigital.com</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Location: Remote / NYC</p>
+          </div>
+          <div className="contact-icons">
+            <a href="mailto:hello@bloomdigital.com" aria-label="Email">
+              <FaEnvelope className="icon" />
+            </a>
+            <a
+              href="https://instagram.com/bloomdigital"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <FaInstagram className="icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <img src={whiteHalfFlower} alt="Floral graphic" className="right-flower" />
     </section>
   );
 }

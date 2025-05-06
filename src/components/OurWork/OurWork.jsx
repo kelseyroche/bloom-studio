@@ -26,15 +26,15 @@
 // export default OurWork;
 
 import React from "react";
-import arrowDown from "../assets/arrow_down.png"; // adjust if needed
-import ourwork1 from "../assets/ourwork1.jpg";
-import ourwork2 from "../assets/ourwork2.jpg";
-import ourwork3 from "../assets/ourwork3.jpg";
-import ourwork4 from "../assets/ourwork4.jpg";
+import arrowDown from "../../assets/arrow_down.png"; // adjust if needed
+import ourwork1 from "../../assets/ourwork1.jpg";
+import ourwork2 from "../../assets/ourwork2.jpg";
+import ourwork3 from "../../assets/ourwork3.jpg";
+import ourwork4 from "../../assets/ourwork4.jpg";
 
 function OurWork() {
   return (
-    <section className="our-work-section">
+    <section id ="our-work"section className="our-work-section">
       <div className="our-work-header">
         <h2 className="our-work-title">
           <span className="our-word">Our</span>{" "}

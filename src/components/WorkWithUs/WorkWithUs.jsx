@@ -2,7 +2,7 @@ import React from "react";
 
 function WorkWithUs() {
   return (
-    <section className="work-with-us-section">
+    <section id = "work-with-us" section className="work-with-us-section">
       <h2>Work With Us</h2>
       <p>Ready to bring your project to life? Fill out the form below, and we’ll get in touch to discuss how we can help you achieve your goals.</p>
       <form>

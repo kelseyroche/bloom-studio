@@ -38,13 +38,13 @@
 // export default About;
 
 import React from "react";
-import flowerImage from "../assets/double_flower_blackbg.png";
-import kelseyPhoto from "../assets/kelsey.jpg";
-import "../App.css";
+import flowerImage from "../../assets/double_flower_blackbg.png";
+import kelseyPhoto from "../../assets/kelsey.jpg";
+import "../../App.css";
 
 function About() {
   return (
-    <section className="about-section">
+    <section id="about" className="about-section">
       <div className="about-top">
         <div className="about-left">
           <h2 className="about-title">About</h2>

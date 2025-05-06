@@ -29,11 +29,11 @@
 // export default Services;
 
 import React from "react";
-import doubleflowerblack from "../assets/doubleflowerblack.png"; // Fix the image path
+import doubleflowerblack from "../../assets/doubleflowerblack.png"; // Fix the image path
 
 function Services() {
   return (
-    <section className="services-section">
+    <section id = "services" section className="services-section">
       <div className="services-header">
         <h2>
           <span className="what-font">What</span>

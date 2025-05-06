@@ -17,16 +17,16 @@
 // export default Clients;
 
 import React from "react";
-import client1 from "../assets/client1.png";
-import client2 from "../assets/client2.png";
-import client3 from "../assets/client3.png";
-import client4 from "../assets/client4.png";
-import client5 from "../assets/client5.png";
-import client6 from "../assets/client6.png"; // You can use real logos later!
+import client1 from "../../assets/client1.png";
+import client2 from "../../assets/client2.png";
+import client3 from "../../assets/client3.png";
+import client4 from "../../assets/client4.png";
+import client5 from "../../assets/client5.png";
+import client6 from "../../assets/client6.png"; // You can use real logos later!
 
 function Clients() {
   return (
-    <section className="clients-section">
+    <section id="clients" section className="clients-section">
       <div className="clients-content">
         <h2 className="clients-title">
           <span className="our-word">Our</span>{" "}

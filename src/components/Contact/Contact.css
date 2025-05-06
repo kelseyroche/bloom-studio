@@ -1,0 +1,135 @@
+.contact-section {
+    background-color: #2e2e2e;
+    color: white;
+    width: 100vw;
+    padding: 100px 0;
+    box-sizing: border-box;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  
+  .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .contact-left {
+    max-width: 600px;
+  }
+
+  .contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+
+  .right-flower {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    height: auto;
+    max-height: 80%;
+    z-index: 1;
+  }
+  
+  .contact-logo {
+    width: 200px;
+    margin-bottom: 40px;
+    margin-top: -20px; /* adjust as needed */
+  }
+  
+  .make-your {
+    font-family: 'TTRamillasBlack', serif;
+    font-size: 4rem;
+    line-height: 1;
+  }
+  
+  .mark {
+    font-family: 'TTRamillasExtraBoldItalic', serif;
+    font-size: 4rem;
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+  
+  .work-bubble {
+    display: inline-block;
+    background-color: white;
+    color: #2e2e2e;
+    padding: 12px 28px;
+    border-radius: 999px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 1.2rem;
+  }
+  
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers the icons */
+    gap: 16px;
+    font-size: 1.1rem;
+    margin-top: 100px; /* adjust to push it lower */
+    max-width: 400px;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  
+  .contact-icons a {
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-icons a:hover {
+    color: #ffd9dd; /* A pop color from your palette */
+  }
+  
+  .contact-flower {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 80%;
+    z-index: 1;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+  
+
+.icon {
+    font-size: 28px;
+    color: white;
+    transition: transform 0.2s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+  }

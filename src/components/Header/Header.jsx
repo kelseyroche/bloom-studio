@@ -95,7 +95,8 @@
 // export default Header;
 
 import React, { useState } from "react";
-import logo from "../assets/2.png";  // Update with the correct logo path
+import logo from "../../assets/2.png";  // Update with the correct logo path
+import './Header.css'
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -116,7 +117,7 @@ function Header() {
       </div>
 
       {/* Dropdown Menu */}
-      {menuOpen && (
+      {/* {menuOpen && (
         <nav className="dropdown-menu">
           <ul>
             <li><a href="#hero">Home</a></li>
@@ -126,6 +127,19 @@ function Header() {
             <li><a href="#services">What We Do</a></li>
             <li><a href="#contact">Contact Us</a></li>
             <li><a href="#work-with-us">Work With Us</a></li>
+          </ul>
+        </nav>
+      )} */}
+      {menuOpen && (
+        <nav className="dropdown-menu">
+          <ul>
+            <li><a href="#hero" onClick={toggleMenu}>Home</a></li>
+            <li><a href="#about" onClick={toggleMenu}>About</a></li>
+            <li><a href="#our-work" onClick={toggleMenu}>Our Work</a></li>
+            <li><a href="#clients" onClick={toggleMenu}>Clients</a></li>
+            <li><a href="#services" onClick={toggleMenu}>What We Do</a></li>
+            <li><a href="#contact" onClick={toggleMenu}>Contact Us</a></li>
+            {/* <li><a href="#work-with-us" onClick={toggleMenu}>Work With Us</a></li> */}
           </ul>
         </nav>
       )}
