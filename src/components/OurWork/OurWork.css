@@ -1,0 +1,19 @@
+.our-work-section {
+    background-color: white;
+    padding: 80px 40px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .our-work-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  
+  .our-work-title {
+    font-size: 3.5rem;
+    margin: 0;
+    display: flex;
+  }
