@@ -1,0 +1,134 @@
+.work-with-us-section {
+    padding: 80px 40px;
+    background-color: white; /* White background */
+    color: #2e2e2e; /* Dark gray text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'TT Ramillas Trial Regular', serif;
+  }
+  
+  .work-header {
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .header-font {
+    font-family: 'TT Ramillas Trial Black', serif;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #2e2e2e; /* Dark gray text */
+  }
+  
+  /* Updated position for quote bubble */
+  .quote-bubble {
+    margin-top: 15px; /* Position directly under "Work With Us" */
+    display: inline-block;
+    background-color: white;
+    color: #2e2e2e;
+    font-size: 1rem;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    border: 1px solid #2e2e2e; /* Dark gray border */
+  }
+  
+  .quote-bubble:hover {
+    transform: scale(1.05); /* Slight hover effect */
+  }
+  
+  .form-layout {
+    width: 100%;
+    max-width: 800px;
+    border: 1.5px solid #2e2e2e; /* Dark gray border */
+    border-radius: 20px;
+    padding: 40px;
+    background-color: white; /* White background */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  }
+  
+  .form-layout h3 {
+    font-family: 'TT Ramillas Trial Black', serif;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #2e2e2e; /* Dark gray text */
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #2e2e2e; /* Dark gray text */
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px;
+    margin-top: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: white; /* White background */
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 10px;
+  }
+  
+  .checkbox-group label {
+    display: flex;
+    align-items: center;
+    background-color: white; /* White background */
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #ccc; /* Light gray border */
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .checkbox-group input {
+    margin-right: 8px;
+    accent-color: #2e2e2e; /* Dark gray accent */
+  }
+  
+  button[type="submit"] {
+    margin-top: 40px;
+    padding: 14px 28px;
+    font-size: 1rem;
+    background-color: #2e2e2e; /* Dark gray background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'TT Ramillas Trial Black', serif;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: black; /* Black on hover */
+  }
+  
+  .thank-you {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #2e2e2e; /* Dark gray text */
+    text-align: center;
+  }

@@ -139,7 +139,7 @@ function Header() {
             {/* <li><a href="#clients" onClick={toggleMenu}>Clients</a></li> */}
             <li><a href="#services" onClick={toggleMenu}>What We Do</a></li>
             <li><a href="#contact" onClick={toggleMenu}>Contact Us</a></li>
-            {/* <li><a href="#work-with-us" onClick={toggleMenu}>Work With Us</a></li> */}
+            <li><a href="#work-with-us" onClick={toggleMenu}>Work With Us</a></li>
           </ul>
         </nav>
       )}
